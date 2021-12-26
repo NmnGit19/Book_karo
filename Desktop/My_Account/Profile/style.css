@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: white;
+    color: darkblue;
+}
+#h11{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+#tab1{
+    display: flex;
+    margin-left: 200px;
+}
+nav div{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.div1 a{
+    color: green;
+    text-decoration: none;
+}
+.div1 a:hover{
+    background-color: blue;
+    color: white;
+    transition: all 0.3s linear;
+    border: 7px solid blue;
+}
+#h21{
+    font-family: system-ui;
+    text-decoration: underline overline;
+}
+/*start drop btn*/
+.drop-down{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    position: relative;
+    display: inline-block;
+    color: green;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 8px;
+    width: 160px;
+}
+.drop-content a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 10px;
+    font-family: sans-serif;
+}
+.drop-content a:hover{
+    background-color: midnightblue;
+    color: white;
+    transition: all 0.5s linear;
+}
+.drop-down:hover .drop-content{
+    display: block;
+    background-color: white;
+}
+.drop-content:hover{
+    box-shadow: 3px 3px 15px 1px rgb(128,128,128);
+    transition: all 0.2s linear;
+}
+.dropbtn:hover{
+    background-color: blue;
+    transition: 0.5s linear;
+    border: 5px solid blue;
+    color: white;
+}
+/*End drop btn*/
+/*End nav bar*/
+
+#nav1{
+    background-color: midnightblue;
+    width: 100%;
+    height: 60px;
+    color: white;
+    margin-top: 42px;
+}
+#nav1 h2{
+    text-decoration: none;
+    margin-left: 100px;
+    padding: 12px;
+    font-family: system-ui;
+}
+
+/*Start middle*/
+.div2{
+    width: 60%;
+    height: 650px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 1px 1px 4px 2px;
+}
+.sec{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    height: 35px;
+}
+.sec1{
+    display: flex;
+}
+.sec1 img{
+    border-radius: 500px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 5px solid midnightblue;
+    margin-top: 3px;
+    width: 300px;
+    height: 300px;
+}
+.sec2{
+    border: 5px solid blue;
+    margin-left: 54px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: steelblue;
+    width: 400px;
+}
+.sec2 u h2 i{
+    margin-left: 5px;
+}
+.h21 i{
+    margin: 8px;
+    margin-left: 60px;
+}
+#h41{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#hr1{
+    height: 2px;
+    width: 80%;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 10px;
+}
+.sec3{
+    border: 5px solid blue;
+    margin-left: 20px;
+    width: 300px;
+    height: 230px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: steelblue;
+}
+.h22 i{
+    margin-left: 12px;
+    margin: 10px;
+}
+.sec4{
+    border: 5px solid blue;
+    margin-left: 35px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: steelblue;
+    width: 400px;
+    height: 230px;
+}
+.h22{
+    margin-top: 10px;
+}
+.sec3 .h22{
+    margin-left: 10px;
+}
+.div5{
+    display: flex;
+    margin-top: 20px;
+}
+/*  start footer*/
+.div3{
+    background-color: midnightblue;
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    display: flex;
+}
+.div4 ul i{
+    margin-top: 21px;
+    color: white;
+    word-spacing: 1px;
+}
+.div4{
+    margin-left: 60px;
+    height: 200px;
+    width: 260px;
+    color: white;
+}
+.h31{
+    font-family: system-ui;
+    margin-top: 40px;
+}
+ul{
+    margin-top: 15px;
+}
+.div3 li{
+    padding: 6px;
+}
+.icon{
+    background-color: dimgrey;
+    height: 30px;
+    display: flex;
+}
+a i{
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.icon a{
+    margin-left: 80px;
+    margin-top: 0.9vh;
+    color: black;
+    font-size: 22px
+}
+.icon p{
+    margin-left: 30vh;
+    margin-top: 3px;
+    font-family: cursive;
+}
+
+/*End footer*/
